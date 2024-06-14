@@ -1,0 +1,212 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #4CAF50;
+    /* Green */
+    color: #fff;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #388E3C;
+    /* Darker green */
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 2em auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+#about {
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 1em 0;
+    border: 4px solid #FF5722;
+    /* Orange */
+}
+
+.experience-item,
+.project-item {
+    margin-bottom: 1em;
+    padding: 1em;
+    border-left: 4px solid #FF5722;
+    /* Orange */
+    background: #f1f1f1;
+    border-radius: 5px;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover,
+.project-item:hover {
+    background: #FFAB91;
+    /* Light Orange */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    color: #FF5722;
+    /* Orange */
+}
+
+.company-logo,
+.github-logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.github-link:hover {
+    color: #FF5722;
+    /* Orange */
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5em 0;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+        /* styles.css */
+    
+        /* Adding styling for journal content */
+        .journal-content {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 1.5em;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 2em;
+        }
+    
+        .journal-content p {
+            margin-bottom: 1.5em;
+            font-size: 1.1em;
+        }
+    
+        .journal-content strong {
+            display: block;
+            margin-bottom: 0.5em;
+            font-size: 1.3em;
+            color: #FF5722;
+            /* Orange */
+        }
+
+                /* styles.css */
+        
+                /* Adding styling for career content */
+                .career-content {
+                    background: #f9f9f9;
+                    border-radius: 10px;
+                    padding: 1.5em;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                    line-height: 1.8;
+                    color: #333;
+                    margin-bottom: 2em;
+                }
+        
+                .career-section {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.5em;
+                }
+        
+                .career-section img.career-image {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-right: 1em;
+                }
+        
+                .career-section div {
+                    flex: 1;
+                }
+        
+                .career-section h3 {
+                    color: #FF5722;
+                    /* Orange */
+                    margin-bottom: 0.5em;
+                }
+        
+                .career-section p {
+                    font-size: 1.1em;
+                    color: #333;
+                }
+}
